@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {   
-        stage('deploy branch') { 
+        stage('deploy branch updated') { 
             steps { 
                sh 'echo "This is deploy branch"' 
             }
